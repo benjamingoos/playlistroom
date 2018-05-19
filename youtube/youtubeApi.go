@@ -14,7 +14,7 @@ var (
 	maxResults = flag.Int64("max-results", 3, "Max YouTube results")
 	)
 	
-const developerKey = "AIzaSyBa79ipepNlQkyGX5MGeBx8rFnRDu_REqw"
+const developerKey = "ENTER YOUR API KEY HERE"
 
 func YoutubeSearch(searchTerm *string) map[string]string {
 
